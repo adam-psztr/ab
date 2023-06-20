@@ -987,6 +987,11 @@ a {
         top: 23vh;
         left: 10vw;
     }
+
+    .bigImg div {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 }
 
 .bigImg {
