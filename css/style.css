@@ -935,3 +935,34 @@ a {
         left: 11vw;
     }
 }
+
+
+
+@media (min-width: 960px) {
+
+    .polaroid {
+        height: 35vh;
+        width: 35vh;
+    }
+
+    .pol1 {
+        top: 20vh;
+        left: 22vw;
+    }
+    
+    .pol2 {
+        bottom: 25vh;
+        right: 20vw;
+    }
+    
+    .pol3 {
+        bottom: 20vh;
+        left: 20vw;
+    }
+    
+    .pol4 {
+        top: 23vh;
+        left: 10vw;
+    }
+
+}
