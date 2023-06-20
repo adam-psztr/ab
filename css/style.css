@@ -238,7 +238,8 @@ html {
 }
 
 .box-icon__content {
-    padding-bottom: 200%;
+    padding-bottom: 150%;
+    margin-top: 30%;
     z-index: 1;
     position: relative;
     border-radius: 5%;
@@ -963,14 +964,20 @@ a {
 
 @media (min-width: 960px) {
 
+    .box-icon__content {
+        margin-top: 0;
+    }
+
     .polaroid {
         height: 35vh;
         width: 35vh;
+        box-shadow: 2px 2px 5px #555;
+        padding: 1vw 1vw 4vw;
     }
 
     .pol1 {
         top: 20vh;
-        left: 22vw;
+        left: 32vw;
     }
 
     .pol2 {
