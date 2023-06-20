@@ -172,7 +172,9 @@ html {
     height: 100%;
     -webkit-transform-origin: center top;
     -ms-transform-origin: center top;
-    transform-origin: center top
+    transform-origin: center top;
+    left: 117px;
+    transform: matrix(0.99994, 0.0107, -0.0107, 0.99994, 0, 0);
 }
 
 .line-item--vert:before {
