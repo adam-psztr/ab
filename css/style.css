@@ -241,7 +241,7 @@ html {
     padding-bottom: 200%;
     z-index: 1;
     position: relative;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 .box-icon__content:hover {
@@ -799,9 +799,24 @@ a {
 .polaroid div {
     width: 100%;
     height: 100%;
-    background-image: url(../img/IMG_5400.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.polaroid .img1 {
+    background-image: url(../img/IMG_5476.JPG);
+}
+
+.polaroid .img2 {
+    background-image: url(../img/IMG_5474.JPG);
+}
+
+.polaroid .img3 {
+    background-image: url(../img/IMG_5400.jpg);
+}
+
+.polaroid .img4 {
+    background-image: url(../img/IMG_5397.jpg);
 }
 
 @media (min-width: 376px) {
@@ -976,12 +991,12 @@ a {
 
 .bigImg {
     position: fixed;
-    height: 100vh;
-    width: 100vw;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    height: calc(100vh - 24px);
+    width: calc(100vw - 24px);
     z-index: 10;
     transform: none;
 }
