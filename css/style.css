@@ -612,7 +612,7 @@ body {
 }
 
 .peel-item__bg__inner {
-    background: #00aeff url(../A4.jpg) left bottom;
+    background: #fff url(../A4.jpg) left bottom;
     background-size: cover;
     -webkit-transform: translateZ(0);
     -ms-transform: translateZ(0);
