@@ -1,6 +1,11 @@
 * {
     -moz-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+	display: none;
 }
 
 body,
@@ -805,19 +810,19 @@ a {
 }
 
 .polaroid .img1 {
-    background-image: url(../img/IMG_5476.JPG);
+    background-image: url(../img/IMG_5525.jpeg);
 }
 
 .polaroid .img2 {
-    background-image: url(../img/IMG_5474.JPG);
+    background-image: url(../img/IMG_5529.jpeg);
 }
 
 .polaroid .img3 {
-    background-image: url(../img/IMG_5400.jpg);
+    background-image: url(../img/IMG_5531.jpeg);
 }
 
 .polaroid .img4 {
-    background-image: url(../img/IMG_5397.jpg);
+    background-image: url(../img/IMG_5512.jpeg);
 }
 
 @media (min-width: 376px) {
